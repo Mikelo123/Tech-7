@@ -1,0 +1,179 @@
+*{
+	font-family: Lato, Arial, sans-serif;
+	margin: 0 auto;
+	padding: 0px;
+
+
+	/* background-color: #eee; /* Applying here to style overscroll 
+    font-family: "Lato", Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #555;
+    font-size: 16px;
+    min-width: 480px; */
+
+
+}
+nav{
+	background-color: #4B4B4B;
+	color: #fff;
+	height: 50px;
+	text-align: right;
+	padding-right: 30px;
+	word-spacing: 30px;
+
+}
+nav img{
+	float: left;
+	height: 39px;
+	width: 20%;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+ul{
+	
+	display: inline-block;
+	padding-top: 20px;
+
+}
+nav li{
+	color: #fff;
+	display: inline-block;
+	text-align: right;
+	font-size: 16px;
+
+
+
+}
+
+.wrapper{
+	background-color: #A9C4C7;
+	height: 490px;
+	color: #000;
+	text-align: center;
+
+}
+
+ .dream{
+	color: #fff;
+	background-color: #98ACB2;
+	font-family: Lato, Arial, sans-serif;
+	font-size: 34px;
+	text-align: center;
+	line-height: 45px;
+	margin-top:  20px;
+	
+}
+
+button{
+	background-color: #777777;
+	color: #fff;
+	padding: 8px 15px;
+	line-height: 25.6px;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	cursor: pointer;
+	border-color: #777777;
+
+}
+.current-version{
+color: #EBF1EB;
+display: block;
+margin: 20px;
+}
+div a{
+	color: #EBF1EB;
+	display: inline-block;
+}
+.let-love{
+	text-align: center;
+	margin: 20px;
+	
+}
+
+
+h3{
+	font-weight: 400;
+	font-size: 19.2px;
+	margin: 13.44px 0px 9.6px;
+	text-decoration:  none solid rgb(119, 119, 119);
+;
+}
+.love{
+	text-align: center;
+	background-color: #eee;
+	padding: 5px 5px 10px;
+	margin: 0px;
+	margin-bottom: 10px;
+	color: #777777;
+	line-height: 54px;
+	font-size: 34px;
+	text-decoration: none solid rgb(119, 119, 119);
+	
+	}
+section{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 30px;
+	grid-column-gap: 20px;
+	background-color: #FCFCFC;
+	grid-gap: 20px;
+	text-align: justify;
+}
+div h3{
+	color: #777777;
+line-height: 30.72px;
+vertical-align: baseline;
+letter-spacing: 0.5px;
+word-spacing: 0px;
+margin: 13.44px 0px 9.6px;
+padding: 0p
+}
+
+div li{
+	padding-left:  12px;
+	text-align: justify;
+}
+
+b{ 
+	border: 1px solid ;
+	font-size: 23.04px;
+}
+
+
+.last-section{
+	text-align: left;
+	padding-left: 10%;
+	line-height: 40px;
+}
+
+
+.last-section a{
+	color: blue;
+}
+.last-section h3{
+	text-transform: uppercase;
+}
+.last-love{
+	line-height: 54px;
+	font-size: 34px;
+	text-decoration: none solid rgb(119, 119, 119);
+	padding: 5px 5px 10px;
+	color: #777777;
+	line-height: 54px;
+	font-size: 34px;
+	margin-left: 30%;
+
+}
+
+.footer-section{
+	height: 200px;
+	background-color: #EEEEEE;
+	padding-left: 30px;
+	line-height: 40px;
+	padding: 20px;
+}
+
+.footer-section a{
+	color: blue;
+}

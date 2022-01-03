@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sublime clone</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=480, user-scalable=yes">
+</head>
+
+<nav>
+    <img src="img/logo.svg">
+    <ul>
+        <a href="#">
+            <li>Download</li>
+        </a>
+        <a href="#">
+            <li>Buy</li>
+        </a>
+        <a href="#">
+            <li>Support</li>
+        </a>
+        <a href="#">
+            <li>News</li>
+        </a>
+        <a href="#">
+            <li>Forum</li>
+        </a>
+
+    </ul>
+</nav>
+<div class="wrapper">
+    <span class="dream">A sophisticated text editor for<br>
+code, markup and prose</span>
+    <p><button>DOWNLOAD FOR WINDOWS</button> </p>
+    <div class="current-version">Sublime Text 3 <i>(Build 3211)</i>
+        <a href="">Changelog</a>
+
+
+    </div>
+
+    <iframe width="100%" height="300px" src="demo_iframe.htm" name="iframe_a"></iframe>
+
+    <!--
+     <img src="img/merge_callout.png" height="" width="50%">
+ -->
+</div>
+<div class="let-love">
+    <span class="love">Some features our users <em>love</em>:</span>
+</div>
+<section>
+
+    <div class="feature odd">
+        <h3>Goto Anything</h3>
+
+        <p>Use <span class="feature">Goto Anything</span> to open files with only a few keystrokes, and instantly jump to symbols, lines or words.
+
+            <p>Triggered with <span class="keys pc"><b>Ctrl</b><i>+</i><b>P</b></span><span class="keys mac"><b>⌘</b><i>+</i><b>P</b></span>, it is possible to:
+
+                <ul>
+                    <li>Type part of a file name to open it.
+                        <li>Type <kbd>@</kbd> to jump to symbols, <kbd>#</kbd> to search within the file, and <kbd>:</kbd> to go to a line number.
+                </ul>
+
+                <p>These shortcuts can be combined, so <kbd>tp@rf</kbd> may take you to a function <span class="symbol">read_file</span> within a file <span class="file">text_parser.py</span>. Similarly, <kbd>tp:100</kbd> would take you to line 100 of the
+                    same file.</p>
+    </div>
+
+    <div class="feature even">
+        <h3>Goto Definition</h3>
+
+        <p>Using information from syntax definitions, Sublime Text automatically generates a project-wide index of every class, method and function. This index powers <span class="feature">Goto Definition</span>, which is exposed in three different ways:
+
+            <ul>
+                <li>A popup is displayed when hovering over a symbol</li>
+                <li>Pressing <span class="keys"><b>F12</b></span> when the caret is on a symbol</li>
+                <li>The <span class="feature">Goto Symbol in Project</span> functionality</li>
+            </ul>
+
+            <p>Symbol indexing can be customized on a per-syntax basis via configuration files, allowing users to tailor the feature to their needs.
+    </div>
+
+    <div class="feature odd">
+        <h3>Multiple Selections</h3>
+
+        <p>Make ten changes at the same time, not one change ten times. Multiple selections allow you to interactively change many lines at once, rename variables with ease, and manipulate files faster than ever.
+
+            <p>Try pressing <span class="keys pc"><b>Ctrl</b><i>+</i><b>Shift</b><i>+</i><b>L</b></span><span class="keys mac"><b>⇧</b><i>+</i><b>⌘</b><i>+</i><b>L</b></span> to split the selection into lines and <span class="keys pc"><b>Ctrl</b><i>+</i><b>D</b></span>
+                <span
+                    class="keys mac"><b>⌘</b><i>+</i><b>D</b></span> to select the next occurrence of the selected word. To make multiple selections with the mouse, take a look at the <a href="/docs/2/column_selection.html">Column Selection</a> documentation.
+    </div>
+
+    <div class="feature even">
+        <h3>Command Palette</h3>
+
+        <p>The <span class="feature">Command Palette</span> holds infrequently used functionality, like sorting, changing the syntax and changing the indentation settings. With just a few keystrokes, you can search for what you want, without ever having
+            to navigate through the menus or remember obscure key bindings.
+
+            <p>Show the <span class="feature">Command Palette</span> with <span class="pc keys"><b>Ctrl</b><i>+</i><b>Shift</b><i>+</i><b>P</b></span><span class="mac keys"><b>⇧</b><i>+</i><b>⌘</b><i>+</i><b>P</b></span>.
+    </div>
+
+    <div class="feature odd">
+        <h3>Powerful API and Package Ecosystem</h3>
+
+        <p>
+            Sublime Text has a powerful, Python <a href="/docs/3/api_reference.html">API</a> that allows plugins to augment built-in functionality.
+        </p>
+        <p>
+            <a href="https://packagecontrol.io">Package Control</a> can be installed via the command palette, providing simple access to thousands of packages built by the community.
+        </p>
+    </div>
+
+    <div class="feature even">
+        <h3>Customize Anything</h3>
+
+        <p>Key bindings, menus, snippets, macros, completions and more - just about everything in Sublime Text is customizable with simple JSON files. This system gives you flexibility as settings can be specified on a per-file type and per-project basis.
+    </div>
+
+    <div class="feature odd">
+        <h3>Split Editing</h3>
+
+        <p>Get the most out of your wide screen monitor with split editing support. Edit files side by side, or edit two locations in the one file. You can edit with as many rows and columns as you wish. Take advantage of multiple monitors by editing with
+            multiple windows, and using multiple splits in each window.
+
+            <p>Take a look at the <span class="menu">View <img src="/images/right.svg" alt="▶"> Layout</span> menu for split editing options. To open multiple views into the one file, use the <span class="menu">File <img src="/images/right.svg" alt="▶"> New View into File</span>                menu item.
+    </div>
+
+    <div class="feature even">
+        <h3>Instant Project Switch</h3>
+
+        <p>Projects in Sublime Text capture the full contents of the workspace, including modified and unsaved files. You can switch between projects in a manner similar to <span class="feature">Goto Anything</span>, and the switch is instant, with no save
+            prompts - all your modifications will be restored next time the project is opened.
+    </div>
+
+    <div class="feature odd">
+        <h3>Performance</h3>
+
+        <p>Sublime Text is built from custom components, providing for unmatched responsiveness. From a powerful, custom cross-platform UI toolkit, to an unmatched syntax highlighting engine, Sublime Text sets the bar for performance.
+    </div>
+
+    <div class="feature even">
+        <h3>Cross Platform</h3>
+
+        <p>Sublime Text is available for Mac, Windows and Linux. One license is all you need to use Sublime Text on every computer you own, no matter what operating system it uses.
+
+            <p>Sublime Text uses a custom UI toolkit, optimized for speed and beauty, while taking advantage of native functionality on each platform.
+    </div>
+</section>
+<div class="last-section">
+
+    <h2 class="last-love">Sublime HQ Family</h2>
+
+
+    <h3>Sublime Merge</h3>
+
+    <p>Have you seen our sister product, <a href="https://www.sublimemerge.com">Sublime Merge</a>? It's a Git Client, done<br> the Sublime Text way.</p>
+
+</div>
+<footer>
+    <div class="footer-section">
+        ©<a href="https://www.sublimehq.com">Sublime HQ Pty Ltd</a>
+
+        <p>Woollahra, Sydney.
+    </div>
+</footer>
+
+
+</body>
+
+</html>
